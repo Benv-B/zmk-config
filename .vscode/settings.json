@@ -1,0 +1,26 @@
+{
+  "files.associations": {
+    "*.overlay": "dts",
+    "*.keymap": "dts",
+    "*.dts": "dts",
+    "*.dtsi": "dts",
+    "keycode_state_changed.h": "c",
+    "regex": "c"
+  },
+  "python.analysis.include": ["app/scripts", "zephyr/scripts"],
+  "[c]": {
+    "editor.formatOnSave": true
+  },
+  "[javascript][javascriptreact][typescript][typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "[css][json][jsonc][html][markdown][yaml]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
